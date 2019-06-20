@@ -57,6 +57,11 @@
             <artifactId>formentryapp-omod</artifactId>
          </dependency>
 
+		<dependency>
+            <groupId>org.openmrs.module</groupId>
+            <artifactId>htmlformentryui-api</artifactId>
+        </dependency>
+        
         <dependency>
             <groupId>org.openmrs.module</groupId>
             <artifactId>webservices.rest-omod-common</artifactId>
@@ -97,6 +102,12 @@
             <artifactId>legacyui-omod</artifactId>
         </dependency>
         
+        <dependency>
+            <groupId>org.openmrs.module</groupId>
+            <artifactId>coreapps-omod</artifactId>
+            <scope>provided</scope>
+         </dependency>
+	         
         <dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>javax.servlet-api</artifactId>

@@ -60,7 +60,9 @@
     </ifMode>
 
     <div id="data-collection">
-
+		
+		<uiInclude provider="coreapps" fragment="conditionlist/conditions" />
+		
         <encounterDiagnoses required="true" selectedDiagnosesTarget="#encounter-diagnoses-target"/>
 
         <p>
